@@ -12,12 +12,12 @@
 #include <DallasTemperature.h>
 
 #define PUB_DELAY (5 * 1000) // 5 second
-#define LATCH_PIN 4
-#define CLOCK_PIN 5
-#define DATA_PIN 0
+#define LATCH_PIN 4          // D2
+#define CLOCK_PIN 5          // D1
+#define DATA_PIN 0           // D3
 #define CONFIG_START 32
 #define CONFIG_VERSION "00001"
-#define DS18B20_BUS 2
+#define DS18B20_BUS 14       // D5
 
 const char* ssidAP = "myESP";
 const char* passwordAP = "12345678";
